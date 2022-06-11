@@ -1,0 +1,17 @@
+{
+    "id": 1233411,
+    "module_code": "CSU33031",
+    "module_name": "Concurrent",
+    "start_date": "24/09/2022",
+    "end_date": "14/12/2022"
+}
+
+{
+    "topic": "SIMD",
+    "sessions" : [
+        {
+            "date": "31/09/2022",
+            "difficulty": "hard"
+        }
+    ]
+}

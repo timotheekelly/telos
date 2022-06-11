@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import styles from '../../styles/Tasks.module.css'
 
 export const getStaticProps = async () => {
@@ -20,11 +21,11 @@ const Tasks = ({ tasks }) => {
             <div>
                 <h1>Tasks</h1>
                 {tasks.map(task => (
-                    <div key={task.div}>
+                    <Link href={'/tasks/' + task.id} key={task.div}>
                         <a className={styles.single}>
                             <h3>{task.name}</h3>
                         </a>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </>
